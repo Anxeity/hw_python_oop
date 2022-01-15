@@ -63,7 +63,7 @@ class Training:
 
 class Running(Training):
     """Тренировка: бег."""
-    minute: int = 60 # минуты
+    minute: int = 60  # минуты
     coeff_calorie_run1: int = 18  # Коэфициент каллорий 1
     coeff_calorie_run2: int = 20  # Коэфициент каллорий 2
 
@@ -78,7 +78,7 @@ class Running(Training):
 
 class SportsWalking(Training):
     """Тренировка: спортивная ходьба."""
-    minute: int = 60 # минуты
+    minute: int = 60  # минуты
     coeff_calorie_wlk1: float = 0.035  # Коэфициент калорий 1
     coeff_calorie_wlk2: float = 0.029  # Коэфициент калорий 2
 
